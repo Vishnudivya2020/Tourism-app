@@ -1,0 +1,196 @@
+
+body{
+  font-family: "Itim", cursive !important;
+  font-weight: 800;
+  font-style: normal;
+  font-size:18px
+}
+
+
+
+.packageContainer {
+  text-align: center;
+  padding: 130px ;
+   width: 100%;
+   height:100%;
+  background-image: url("https://tramptraveller.com/wp-content/uploads/2020/04/120151005123147193904-1024x680.jpg"); /* example beach/travel bg */
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: #b8e7da; /* deep teal */
+  margin-bottom: 30px;
+}
+
+.packageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap:45px;
+  justify-items: center;
+  margin-right: 60px;
+}
+
+.packageCard {
+  background-color: #e9e9e5; /* pastel green */
+  width: 50vh;
+  height:60vh;
+  padding: 40px;
+  border-radius: 18px;
+  
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.packageCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.packageTitle {
+  color: #05176d; /* strong teal */
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.cities {
+  color: #374151; /* slate gray */
+  font-size: 15px;
+  margin: 8px 0;
+  
+}
+
+.price {
+  color: #16a34a; /* green */
+  font-weight: bold;
+  margin: 10px 0;
+  
+}
+
+.description {
+  color: #fc6340;
+   line-height: 1.3;
+  margin: 12px 0 20px;
+}
+
+.btn {
+  background-color: #7e22ce; /* purple */
+  color: #fff;
+  padding: 10px ;
+  width:200px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #a855f7; /* lighter purple */
+  transform: scale(1.05);
+}
+
+
+/* ================================
+   📱 SMALL MOBILES (max-width: 480px)
+   ================================ */
+@media (max-width: 480px) {
+
+  .packageContainer {
+    padding: 40px 20px;
+    background-position: center;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .packageGrid {
+    margin-right: 0;
+    gap: 25px;
+    grid-template-columns: 1fr;
+  }
+
+  .packageCard {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .packageTitle {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* =============================
+   📱📱 LARGE MOBILES (481–768px)
+   ============================= */
+@media (max-width: 768px) {
+
+  .packageContainer {
+    padding: 60px 30px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .packageGrid {
+    margin-right: 0;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 35px;
+  }
+
+  .packageCard {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .packageTitle {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 180px;
+  }
+}
+
+/* =============================
+   💻 TABLET / SMALL LAPTOPS (769–1024px)
+   ============================= */
+@media (max-width: 1024px) {
+
+  .packageContainer {
+    padding: 90px 40px;
+  }
+
+  .packageCard {
+    width: 45vh;
+    height: auto;
+    padding: 30px;
+  }
+
+  .packageGrid {
+    gap: 40px;
+    margin-right: 20px;
+  }
+}

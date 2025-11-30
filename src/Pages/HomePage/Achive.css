@@ -1,0 +1,114 @@
+.title{
+    color:rgb(245, 125, 34);
+  
+   font-size: 25px !important;
+  font-weight: bold ;
+  margin-bottom: 10px;
+    
+}
+.description{
+    color:aliceblue;
+    font-size: 16px ;
+  line-height: 1.5;
+}
+
+.achivement-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-image: url('https://wallpaperaccess.com/full/704433.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.achivement-box {
+  flex: 0 0 calc(33.33% - 20px); /* 3 per row with gap */
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(173, 216, 230, 0.4);
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect: smooth scale-in-out */
+.achivement-box:hover {
+  transform: scale(1.05); /* Zoom in */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------- TABLET (max 1024px) ------------------- */
+@media (max-width: 1024px) {
+  .achivement-box {
+    flex: 0 0 calc(50% - 20px);  /* 2 per row */
+  }
+
+  .title {
+    font-size: 22px !important;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+}
+
+/* ------------------- MOBILE (max 768px) ------------------- */
+@media (max-width: 768px) {
+  .achivement-box {
+    flex: 0 0 calc(50% - 15px); /* still 2 per row */
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 20px !important;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+/* ------------------- SMALL MOBILE (max 480px) ------------------- */
+@media (max-width: 480px) {
+  .achivement-container {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .achivement-box {
+    flex: 0 0 100%;   /* one per row */
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 18px !important;
+  }
+
+  .description {
+    font-size: 13px;
+  }
+}
+
+/* ------------------- EXTRA SMALL (max 360px) ------------------- */
+@media (max-width: 360px) {
+  .achivement-box {
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 16px !important;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+}
+
+

@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Desktop navbar */
+.navbar {
+  display: flex;
+  gap: 1.5rem;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.navItem {
+  color: rgb(213, 247, 135);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: "Kaushan Script", cursive;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.navItem:hover {
+  color: teal;
+}
+
+/* Hamburger icon (hidden on desktop) */
+.hamburger {
+  display: none;
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: whitesmoke;
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+
+  /* show hamburger */
+  .hamburger {
+    display: block;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+  }
+
+  /* dropdown menu hidden by default */
+  .navbar {
+    display: none;
+    flex-direction: column;
+    background: white;
+    width: 70%;
+    position: absolute;
+    top: 60px;     /* appear below hamburger */
+    right: 10px;   /* aligned properly */
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    z-index: 999;
+  }
+
+  /* show menu when clicked */
+  .show {
+    display: flex;
+  }
+
+  .navItem {
+    padding: 12px 0;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 15px;
+    color: #222;
+  }
+
+  .navItem:hover {
+    color: teal;
+  }
+}

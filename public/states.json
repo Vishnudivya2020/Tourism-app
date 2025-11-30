@@ -1,0 +1,158 @@
+
+
+  {
+  "TamilNadu": {
+    "touristSpots": [
+      {
+        "name": "Meenakshi Amman Temple",
+        "img":"/images/places/Meenakshi.jpg"
+      },
+      {
+        "name": "Ooty Lake",
+        "img": "/images/places/ooty-lake.webp"
+      },
+      {
+        "name": "Mahabalipuram",
+        "img": "/images/places/mahabalipuram.jpeg"
+      },
+      {
+        "name": "Kodaikanal",
+        "img": "/images/places/Kodaikanal.jpg"
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Taj Madurai",
+        "img": "/images/Hotels/Taj-madurai.jpg"
+      },
+      {
+        "name": "Le Meridian Coimbatore",
+        "img":  "/images/Hotels/Le-Meridien.jpg"
+      }
+     
+    ]
+  },
+  "Delhi": {
+    "touristSpots": [
+      {
+        "name": "Red fort",
+        "img": "/images/places/Red-fort.jpg"
+      },
+      {
+        "name": "India Gate",
+        "img": "/images/places/India-Gate.jpg"
+      },
+      {
+        "name": "Lotus temple",
+        "img": "/images/places/lotus temple.jpg"
+      }
+    ],
+    "hotels": [
+      { "name": "The Chancery Pavilion", "img": "/images/Hotels/Chancery Pavilion.avif" },
+      { "name": "Taj Palace", "img": "/images/Hotels/Taj palaces.jpg"  },
+      {
+        "name": "The Hotel Fairmount Plaza Near IGI Airport",
+        "img": "/images/Hotels/fairmont.jpg" 
+      }
+    ]
+  },
+  "Bangalore": {
+    "touristSpots": [
+      { "name": "Bangalore Palace", "img": "/images/places/Bangalore-Palace.jpg" },
+      { "name": "Nandi Hills", "img": "/images/places/Nandi-hills.jpg"  },
+      {
+        "name": "Tipu Sultan’s Summer palace",
+        "img": "/images/places/Tippu-sultan.jpg" 
+      }
+    ],
+    "hotels": [
+      {
+        "name": "Holiday Inn Bengaluru Racecourse by IHG",
+        "img": "/images/Hotels/Bangalore-Holidays.jpg" 
+      },
+      { "name": "Taj MG Road Bengaluru", "img":"/images/Hotels/taj-mg-road-bangalore.jpg" },
+      { "name": "The Chancery Pavilion", "img": "/images/Hotels/Chancery Pavilion.avif" }
+    ]
+  },
+   "Kashmir": {
+    "touristSpots": [
+      { "name": "Srinagar", "img": "/images/places/Srinagar.avif" },
+      { "name": "Gulmarg", "img": "/images/places/Gulmar.jpg" },
+      { "name": "Pahalgam", "img": "/images/places/Pahalgam.jpg" }
+    ],
+    "hotels": [
+      { "name": "Radisson Blu jammu", "img": "/images/Hotels/Radisson.jpg" },
+      { "name": "Rama Trident katra", "img": "/images/Hotels/rama.jpg"},
+      { "name": "Hotel Shree Palace", "img": "/images/Hotels/hotel-shree-palace.jpg" }
+    ]
+  },
+   "Goa": {
+    "touristSpots": [
+      { "name": "Baga Beach", "img": "/images/places/Baga-Beach-Goa.jpg" },
+      {
+        "name": "Cotigao wildlife Sanctuary",
+        "img": "/images/places/Cotigao.webp"
+      },
+      { "name": "Fort Aguada", "img": "/images/places/Aguada-Fort.jpg" }
+    ],
+    "hotels": [
+      { "name": "Hotel Sporting ", "img":"/images/Hotels/hotel-sporting.jpg" },
+      {
+        "name": "Grand Velas Riviera Nayarit",
+        "img": "/images/Hotels/Grand-Velas-Riviera-Nayarit.jpg"
+      },
+      { "name": "Chandys Windy Woods", "img": "/images/Hotels/Chandy-Windywood.jpg " }
+    ]
+  },
+   "Meghalaya": {
+    "touristSpots": [
+      { "name": "Cherrapunji", "img": "/images/places/Cherrapunji.webp" },
+      { "name": "Shillong", "img": "/images/places/Shillong.jpg" },
+      { "name": "Laitlum Canyons", "img": "/images/places/laitlum-canyon.jpg"}
+    ],
+    "hotels": [
+      { "name": "Polo Towers", "img": "/images/Hotels/the-polo-towers.jpg" },
+      { "name": "Hillside Homestay", "img": "/images/Hotels/mega-Homestay.jpg" },
+      { "name": "The Center Point", "img": "/images/Hotels/hotel-centre-point.jpg" }
+    ]
+  },
+   "AndamanNicobar": {
+    "touristSpots": [
+      { "name": "Ross Island", "img": "/images/places/Ross-Island.jpg" },
+      { "name": "Viper Island", "img": "/images/places/Viper_Island.jpg" },
+      { "name": "Beaches", "img": "/images/places/Beaches.jpg" }
+    ],
+    "hotels": [
+      { "name": "Beach Resort", "img": "/images/Hotels/beach-resorts-andaman.webp" },
+      { "name": "Kerikeri Park Lodge", "img": "/images/Hotels/kerikeri.webp"  },
+      { "name": "Kauri Park Motel", "img": "/images/Hotels/kauripark.jpg"}
+    ]
+  },
+  "Puducherry": {
+    "touristSpots": [
+      { "name": "Mysore Palace", "img": "/images/places/Mysore-palaces.jpg" },
+      { "name": "Coorg Hills", "img": "/images/places/Coorg.jpg" },
+      { "name": "kanyakumari", "img": "/images/places/kanyakumari.jpg" }
+    ],
+    "hotels": [
+      { "name": "White Pearl Residency", "img": "/images/Hotels/white palaces.jpg" },
+      { "name": "La Villa", "img": "/images/Hotels/La-villa.jpg" },
+      { "name": "The Bull Boutique", "img": "/images/Hotels/the Bull.jpeg" }
+    ]
+  },
+   "Kerala": {
+    "touristSpots": [
+      { "name": "Trivandrum", "img": "/images/places/trivandrum.jpg" },
+      { "name": "Thrissur", "img": "/images/places/Thrissur.jpg" },
+      { "name": "Allapee", "img": "/images/places/boathouse.avif" }
+    ],
+    "hotels": [
+      { "name": "Heritage", "img":"/images/Hotels/Heritage.jpg"},
+      { "name": "BoatHouse", "img": "/images/places/boathouse.avif" }
+     
+    ]
+  }
+
+}
+
+ 

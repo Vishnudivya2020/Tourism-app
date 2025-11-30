@@ -1,0 +1,63 @@
+
+.heroWrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;   /* removes side space */
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/035/872/680/non_2x/ai-generated-aerial-view-of-a-road-in-the-middle-of-the-forest-free-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.title{
+ font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:aliceblue;
+  /* padding:10px; */
+  position: fixed;
+   top:10px;
+   left:10px;
+}
+.logo {
+ width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position:relative;
+  top:5px;
+  right:20px;
+  
+  
+ 
+}
+
+
+.head {
+  color:orange;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  position: absolute;
+  top:55%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  text-shadow: 2px 2px 8px bla;
+
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width:100%;
+}
+
