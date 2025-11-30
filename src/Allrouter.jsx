@@ -9,6 +9,7 @@ import { Book } from './Pages/Booking/Book.jsx';
 import StatePage from './Pages/Booking/statePage.jsx';
 import BookingForm from './Pages/package/form.jsx';
 import ContactPage from './Pages/Contact/Contact.jsx';
+import Review from './Pages/Review/Review.jsx';
 
 export default function Allroutes(){
     return (
@@ -20,6 +21,7 @@ export default function Allroutes(){
              <Route path ="/signup"element={<SignUp />} />
              <Route path ="/book"element={<Book />} />
             <Route path="/state" element={<Book />} />
+            <Route path="/review" element={<Review />}/>
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/booking" element={<BookingForm />} />
         <Route path="/state/:stateName" element={<StatePage />} />

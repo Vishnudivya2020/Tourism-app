@@ -1,0 +1,104 @@
+.review-container {
+  padding: 120px 20px;
+  background-image: url("https://wallpaperaccess.com/full/704433.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.review-header {
+  text-align: center;
+  color: #fff;
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* FORM */
+.review-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.15);
+  padding: 25px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.input-box,
+.textarea-box {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.textarea-box {
+  height: 100px;
+}
+
+/* Star Rating */
+.star-rating {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.star {
+  font-size: 26px;
+  cursor: pointer;
+  color: #ddd;
+}
+
+.filled {
+  color: gold;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: darkorange;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Review Cards */
+.review-list {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.review-card {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+.review-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-message {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.review-date {
+  text-align: right;
+  color: #ddd;
+}
+
+/* No reviews */
+.no-review {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
