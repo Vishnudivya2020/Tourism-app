@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import styles from "./signUp.module.css"; // <-- import your CSS module
+import styles from "./signup.module.css"; 
 
 function SignUp() {
   const [formData, setFormData] = useState({

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Card.css";
 import Taj from "../../assets/Taj.jpg";
-import Boat from "../../assets/Houseboat.jpg";
+import Boat from "../../assets/HouseBoat.jpg";
 import Munnar from "../../assets/Munnar.jpg";
 
 
